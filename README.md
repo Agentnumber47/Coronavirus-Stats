@@ -1,14 +1,17 @@
 # Coronavirus-Stats
 
 Simple python program that displays (in the shell/terminal) the current COVID-19 statistics (US and global).
-Wrapper for the covid library from PyPi.
+
+Alternately, a wrapper for the covid library from PyPi.
 
 ![Screenshot](docs/images/screenshot.png)
 
 ## Dependencies
 
 python
+
 [colorama](https://pypi.org/project/colorama/) (might already be installed)
+
 [covid](https://pypi.org/project/covid/) (version as of coding: 2.4.0)
 
 ## Install
