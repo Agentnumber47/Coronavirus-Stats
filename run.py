@@ -1,4 +1,4 @@
-#! /usr/bin/env python3.9
+#! /usr/bin/env python
 from colorama import init
 from datetime import datetime
 from covid import Covid
