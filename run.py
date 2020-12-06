@@ -9,6 +9,11 @@ def place_value(number):
 
 def main():
     init()
+
+    # Detect terminal size for display purposes
+    terminal_size = os.get_terminal_size()
+    columns = terminal_size.columns
+
     # Capture time
     time_of_now = datetime.now()
     querytime = f"{time_of_now.day} {time_of_now.strftime('%b')} {time_of_now.year} [{time_of_now.hour}:{time_of_now.minute}:{time_of_now.second}]"
@@ -28,16 +33,16 @@ def main():
 
     # Print data to shell
     os.system('clear')
-    print('\033[36m' + "#".center(80, "#"))
-    print("     US | GLOBAL COVID STATISTICS     ".center(80, "#"))
-    print("#".center(80, "#"))
+    print('\033[36m' + "#".center(columns, "#"))
+    print("     US | GLOBAL COVID STATISTICS     ".center(columns, "#"))
+    print("#".center(columns, "#"))
     print("")
     for i in stat_list:
-        print(f'\033[{color_map[i]}m' + f"{i}".upper().center(80, " "))
-        print(f"{place_value(usa_cases[i])} | {world_cases[i]}".center(80, " "))
+        print(f'\033[{color_map[i]}m' + f"{i}".upper().center(columns, " "))
+        print(f"{place_value(usa_cases[i])} | {world_cases[i]}".center(columns, " "))
         print("")
     print('\033[39m') # Reset text color
-    print(f"Source: Worldometers ({querytime})".rjust(80, " "))
+    print(f"Source: Worldometers ({querytime})".rjust(columns, " "))
 
 
 if __name__ == '__main__':
