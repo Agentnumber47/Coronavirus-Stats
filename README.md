@@ -1,6 +1,6 @@
 # Coronavirus-Stats
 
-Simple python program that displays (in the shell/terminal) the current COVID-19 statistics (US and global).
+Simple python CLI program that displays the current COVID-19 statistics (US and global).
 
 Alternately, a wrapper for the covid library from PyPi.
 
@@ -29,4 +29,6 @@ This has been tested, and works, on Linux and Windows; but it should run on MacO
 
 ## Colorblind or Black-and-White Mode:
 
-Hate or can't see colors well? I got you! Just run 'run-bw.py' instead. 
+Hate or can't see colors well? I got you! Just run 'run-bw.py' instead.
+
+Wear a mask.
