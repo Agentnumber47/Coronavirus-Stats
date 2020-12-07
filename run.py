@@ -1,4 +1,9 @@
 #! /usr/bin/env python
+## Coronavirus-Stats v1.0 (Requires Python3.6 or Higher)
+## Author: AgentNumber47
+## Source: https://github.com/Agentnumber47/Coronavirus-Stats
+## Wear a mask!
+
 from colorama import init
 from datetime import datetime
 from covid import Covid
