@@ -31,4 +31,6 @@ This has been tested, and works, on Linux and Windows; but it should run on MacO
 
 Hate or can't see colors well? I got you! Just run 'run-bw.py' instead.
 
+![Screenshot](image/screenshot-bw.png)
+
 Wear a mask.
