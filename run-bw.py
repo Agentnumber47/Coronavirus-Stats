@@ -40,7 +40,8 @@ def main():
     for i in stat_list:
         print(f"{i}".upper().center(columns, " "))
         print(f"{place_value(usa_cases[i])} | {world_cases[i]}".center(columns, " "))
-        print("\n")
+        print("")
+    print("")
     print(f"Source: Worldometers ({querytime})".rjust(columns, " "))
     pause = input("")
 
