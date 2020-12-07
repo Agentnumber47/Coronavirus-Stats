@@ -8,7 +8,7 @@ Alternately, a wrapper for the covid library from PyPi.
 
 ## Dependencies
 
-python
+python (V3.6 or Higher)
 
 [colorama](https://pypi.org/project/colorama/) (might already be installed) (Doesn't apply to black-and-white mode)
 
