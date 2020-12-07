@@ -32,7 +32,7 @@ def main():
     world_cases['recovered'] = place_value(covid.get_total_recovered())
 
     # Manage the data for printing to shell
-    color_map = {'confirmed': 34, 'deaths': 31, 'active': 33, 'recovered': 32} # Set the Colorama color codes for stats
+    color_map = {'confirmed': 35, 'deaths': 31, 'active': 33, 'recovered': 32} # Set the Colorama color codes for stats
     stat_list = ['confirmed', 'deaths', 'active', 'recovered']
 
     # Print data to shell
