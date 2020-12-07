@@ -3,6 +3,7 @@ from colorama import init
 from datetime import datetime
 from covid import Covid
 import os
+import platform
 
 def place_value(number):
     return ("{:,}".format(number))
@@ -10,6 +11,9 @@ def place_value(number):
 def main():
     init()
 
+    # Detect OS (to define clear screen code)
+    operating_system = platform.system()
+    clear_command = "cls" if operating_system == "Windows" else "clear"
     # Detect terminal size for display purposes
     terminal_size = os.get_terminal_size()
     columns = terminal_size.columns
@@ -32,7 +36,7 @@ def main():
     stat_list = ['confirmed', 'deaths', 'active', 'recovered']
 
     # Print data to shell
-    os.system('clear')
+    os.system(clear_command)
     print('\033[36m' + "#".center(columns, "#"))
     print("     US | GLOBAL COVID STATISTICS     ".center(columns, "#"))
     print("#".center(columns, "#"))
@@ -43,6 +47,7 @@ def main():
         print("")
     print('\033[39m') # Reset text color
     print(f"Source: Worldometers ({querytime})".rjust(columns, " "))
+    pause = input("")
 
 
 if __name__ == '__main__':
