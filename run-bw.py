@@ -4,8 +4,8 @@
 ## Source: https://github.com/Agentnumber47/Coronavirus-Stats
 ## Wear a mask!
 
-from datetime import datetime
 from covid import Covid
+from datetime import datetime
 import os
 import platform
 
@@ -43,7 +43,7 @@ def main():
     print("#".center(columns, "#"))
     print("")
     for i in stat_list:
-        print(f"{i}".upper().center(columns, " "))
+        print(f"{i.upper()}".center(columns, " "))
         print(f"{place_value(usa_cases[i])} | {world_cases[i]}".center(columns, " "))
         print("")
     print("")

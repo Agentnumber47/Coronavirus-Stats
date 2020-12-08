@@ -5,8 +5,8 @@
 ## Wear a mask!
 
 from colorama import init
-from datetime import datetime
 from covid import Covid
+from datetime import datetime
 import os
 import platform
 
@@ -47,7 +47,7 @@ def main():
     print("#".center(columns, "#"))
     print("")
     for i in stat_list:
-        print(f'\033[{color_map[i]}m' + f"{i}".upper().center(columns, " "))
+        print(f'\033[{color_map[i]}m' + f"{i.upper()}".center(columns, " "))
         print(f"{place_value(usa_cases[i])} | {world_cases[i]}".center(columns, " "))
         print("")
     print('\033[39m') # Reset text color
