@@ -16,21 +16,21 @@ python (V3.6 or Higher)
 
 ## Install
 
-After making sure you have the proper dependencies installed, clone this repo (or copy 'run.py').
+After making sure you have the proper dependencies installed, clone this repo (or copy 'coronavirus-stats.py').
 
-You may need to make run.py executable.
+You may need to make the .py file executable for your system to run it.
 
-On Linux (in your terminal), navigate to the directory where run.py is contained and type 'chmod a+x ./run.py'.
+To do this on Linux (in your terminal), navigate to the coronavirus-stats directory and type 'chmod a+x ./coronavirus-stats.py'.
 
 ## Running:
 
-This is a CLI program, so it is happy to be run from the terminal ([command prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/) in Windows). If you are using Windows, you should be able to run it by double-clicking the 'run.py' file, as if it were an .exe file.
+This is a CLI program, so it is happy to be run from the terminal ([command prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/) in Windows). If you are using Windows, you should be able to run it by double-clicking the 'coronavirus-stats.py' file, as if it were an .exe file.
 
 This has been tested, and works, on Linux and Windows; but it should run on MacOS.
 
 ## Colorblind or Black-and-White Mode:
 
-Hate or can't see colors well? I got you! Just run 'run-bw.py' instead.
+Hate or can't see colors well? I got you! Just run 'coronavirus-stats-bw.py' instead.
 
 ![Screenshot](image/screenshot-bw.png)
 
