@@ -16,9 +16,10 @@ python (V3.6 or Higher)
 
 ## Install
 
-After making sure you have the proper dependencies installed, clone this repo (or copy 'run.py).
+After making sure you have the proper dependencies installed, clone this repo (or copy 'run.py').
 
 You may need to make run.py executable.
+
 On Linux (in your terminal), navigate to the directory where run.py is contained and type 'chmod a+x ./run.py'.
 
 ## Running:

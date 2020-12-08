@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-## Coronavirus-Stats (Colorblind Mode) v1.0 (Requires Python3.6 or Higher)
+## Coronavirus-Stats (Colorblind Mode) v1.1 (Requires Python3.6 or Higher)
 ## Author: AgentNumber47
 ## Source: https://github.com/Agentnumber47/Coronavirus-Stats
 ## Wear a mask!
