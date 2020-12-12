@@ -7,14 +7,14 @@
 from covid import Covid
 from datetime import datetime
 import os
-import platform
+from platform import system as platsys
 
 def place_value(number):
     return ("{:,}".format(number))
 
 def main():
     # Detect OS (to define clear screen code)
-    operating_system = platform.system()
+    operating_system = platsys()
     clear_command = "cls" if operating_system == "Windows" else "clear"
     # Detect terminal size for display purposes
     terminal_size = os.get_terminal_size()
